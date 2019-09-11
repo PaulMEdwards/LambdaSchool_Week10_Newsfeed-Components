@@ -34,6 +34,7 @@ let menuItems = [
   
 */
 
+const header = document.querySelector('div.header');
 const menu = document.querySelector('img.menu-button');
 
 function menuFactory() {
@@ -55,15 +56,9 @@ function menuFactory() {
   menuDiv.classList.add('menu');
 
   // Add Event Listener(s)
-  menu.addEventListener('click', (e) => {
-    if(menuDiv.classList.contains('menu--open')) {
-      menuDiv.classList.remove('menu--open');
-    } else {
-      menuDiv.classList.add('menu--open');
-    }
-  });
+  menu.addEventListener('click', e => menuDiv.classList.toggle('menu--open'));
 
   return menuDiv;
 }
 
-menu.appendChild(menuFactory());
+header.appendChild(menuFactory());
