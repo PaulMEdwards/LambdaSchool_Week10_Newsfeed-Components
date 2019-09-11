@@ -80,6 +80,14 @@ body {
   transform: translate(-50%);
   background-color: white;
 }
+.article div.content-hidden {
+  overflow: hidden;
+  height: 0px;
+}
+.article div.content-expanded {
+  overflow: auto;
+  height: 330px;
+}
 .article-open {
   height: 400px;
 }
