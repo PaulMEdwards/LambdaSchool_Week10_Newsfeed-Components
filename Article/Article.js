@@ -146,7 +146,7 @@ function articleFactory(articleData) {
   content.appendChild(paragraph3);
   content.appendChild(source);
   article.appendChild(button);
-  
+
   // Set content
   title.textContent = articleData.title;
   date.textContent = articleData.date;
@@ -157,6 +157,14 @@ function articleFactory(articleData) {
     source.innerHTML = `Source: <a href="${articleData.sourceLink}">${articleData.sourceTitle ? articleData.sourceTitle : articleData.sourceLink}</a>`;
   }
   button.textContent = 'expand...';
+
+  // Apply styles
+  article.classList.add('article');
+  date.classList.add('date');
+  content.classList.add('content-hidden');
+  button.classList.add('expandButton');
+
+  // Add Event Listener(s)
   button.addEventListener('click', (e) => {
     console.log(`${articleData.title} button was clicked!`);
     if(article.classList.contains('article-open')) {
@@ -169,13 +177,7 @@ function articleFactory(articleData) {
       button.textContent = 'collapse...';
     }
   });
-  
-  // Apply styles
-  article.classList.add('article');
-  date.classList.add('date');
-  content.classList.add('content-hidden');
-  button.classList.add('expandButton');
-  
+
   return article;
 }
 
