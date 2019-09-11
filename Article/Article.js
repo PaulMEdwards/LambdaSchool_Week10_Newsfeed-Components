@@ -156,7 +156,7 @@ function articleFactory(articleData) {
   if (articleData.sourceLink) {
     source.innerHTML = `Source: <a href="${articleData.sourceLink}">${articleData.sourceTitle ? articleData.sourceTitle : articleData.sourceLink}</a>`;
   }
-  button.textContent = 'expand...';
+  button.textContent = '\u25bc';
 
   // Apply styles
   article.classList.add('article');
@@ -170,11 +170,11 @@ function articleFactory(articleData) {
     if(article.classList.contains('article-open')) {
       article.classList.remove('article-open');
       content.classList.replace('content-expanded', 'content-hidden');
-      button.textContent = 'expand...';
+      button.textContent = '\u25bc';
     } else {
       article.classList.add('article-open');
       content.classList.replace('content-hidden', 'content-expanded');
-      button.textContent = 'collapse...';
+      button.textContent = '\u25b2';
     }
   });
 
