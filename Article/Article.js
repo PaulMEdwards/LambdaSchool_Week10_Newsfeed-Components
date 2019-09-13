@@ -5,16 +5,16 @@ const data = [
     title: 'Lambda School Students: "We\'re the best!"',
     date: 'Nov 5th, 2018',
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
-        moff wicket tatooine luke.Solo wampa wampa calrissian yoda moff.Darth grievous darth gonk darth hutt.Darth baba skywalker
-        watto fett jango maul han.Mon ewok sidious sidious lando kenobi grievous gamorrean solo.Yoda wedge utapau darth calamari.
-        Hutt calamari darth jabba.Darth dooku amidala organa moff.Boba darth binks solo hutt skywalker dantooine skywalker.Qui - gonn
+        moff wicket tatooine luke. Solo wampa wampa calrissian yoda moff. Darth grievous darth gonk darth hutt. Darth baba skywalker
+        watto fett jango maul han. Mon ewok sidious sidious lando kenobi grievous gamorrean solo. Yoda wedge utapau darth calamari.
+        Hutt calamari darth jabba. Darth dooku amidala organa moff. Boba darth binks solo hutt skywalker dantooine skywalker. Qui - gonn
         jar twi'lek jinn leia jango skywalker mon.`,
 
-    secondParagraph: `Grievous fett calamari anakin skywalker hutt.Alderaan darth kenobi darth r2- d2
-        windu mothma.Sidious darth calamari moff.Wampa mothma sith wedge solo mara.Darth gonk maul sith moff chewbacca palpatine
-        mace amidala.C - 3po solo skywalker anakin yoda leia.Maul wampa bespin watto jade ewok darth jabba.Lando dantooine moff
-        k - 3po dantooine luke.Fisto mandalore darth wedge c - 3p0 ahsoka.Secura moff palpatine fett.Anakin sith darth darth.Moff
-        solo leia ben ponda jade.Binks jango aayla skywalker skywalker cade.Mustafar darth ventress anakin watto.Yavin jawa sebulba
+    secondParagraph: `Grievous fett calamari anakin skywalker hutt. Alderaan darth kenobi darth r2- d2
+        windu mothma. Sidious darth calamari moff. Wampa mothma sith wedge solo mara. Darth gonk maul sith moff chewbacca palpatine
+        mace amidala. C - 3po solo skywalker anakin yoda leia. Maul wampa bespin watto jade ewok darth jabba. Lando dantooine moff
+        k - 3po dantooine luke. Fisto mandalore darth wedge c - 3p0 ahsoka. Secura moff palpatine fett. Anakin sith darth darth. Moff
+        solo leia ben ponda jade. Binks jango aayla skywalker skywalker cade. Mustafar darth ventress anakin watto. Yavin jawa sebulba
         owen jinn tatooine sith organa.`,
 
     thirdParagraph: `Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
@@ -75,16 +75,28 @@ const data = [
     date: 'Jan 1st, 2019',
     firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
           hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
-          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor?`,
 
     secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
           hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
           hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
-          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? `,
+          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor?`,
 
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Comparing Back-ends: the biggest assets deployed in 2019',
+    date: 'Sep 10th, 2019',
+    firstParagraph: `Developers need a backend framework to create an application with which user can interact and perform some actions (which result in responses). In this context, backend is defined as the subordinate processor or program (not directly accessible by users), which performs a specialized function on behalf of a main processor or software system. You need a webserver to run these scripts. The web server can be your development machine (localhost), a dedicated or cloud hosting service. All the scripts are located on the server. When a user interacts with these scripts, responses are generated and sent to the user.`,
+
+    secondParagraph: `The backend or the script-side of a dynamic application that works on request-response architecture comprises of API’s, databases, frameworks, service workers and an operating system. These days, developers have access to services such as Docker, Vagrant and BAAS that provide sophisticated systems to automatically deploy the backend scripts to any server or cloud.`,
+
+    thirdParagraph: `Given the importance of backend frameworks, it is no surprise that developers could choose from a range of frameworks. GitHub and similar platforms have a number of frameworks that add value to backend development...`,
+
+    sourceTitle: `Medium: Best Back-End Frameworks to Build Your Next Web Application`,
+    sourceLink: `https://medium.com/@shahroznawaz/best-backend-frameworks-to-build-your-next-web-application-2f89f08f34e3`
   }
 ];
 
@@ -112,3 +124,65 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 
 */
+
+function articleFactory(articleData) {
+  // Create Elements
+  const article = document.createElement('div');
+  const title = document.createElement('h2');
+  const date = document.createElement('p');
+  const content = document.createElement('div');
+  const paragraph1 = document.createElement('p');
+  const paragraph2 = document.createElement('p');
+  const paragraph3 = document.createElement('p');
+  const source = document.createElement('p');
+  const button = document.createElement('span');
+
+  // Create Structure
+  article.appendChild(title);
+  article.appendChild(date);
+  article.appendChild(content);
+  content.appendChild(paragraph1);
+  content.appendChild(paragraph2);
+  content.appendChild(paragraph3);
+  content.appendChild(source);
+  article.appendChild(button);
+
+  // Set content
+  title.textContent = articleData.title;
+  date.textContent = articleData.date;
+  paragraph1.textContent = articleData.firstParagraph;
+  paragraph2.textContent = articleData.secondParagraph;
+  paragraph3.textContent = articleData.thirdParagraph;
+  if (articleData.sourceLink) {
+    source.innerHTML = `Source: <a href="${articleData.sourceLink}">${articleData.sourceTitle ? articleData.sourceTitle : articleData.sourceLink}</a>`;
+  }
+  button.textContent = '\u25bc';
+
+  // Apply styles
+  article.classList.add('article');
+  date.classList.add('date');
+  content.classList.add('content-hidden');
+  button.classList.add('expandButton');
+
+  // Add Event Listener(s)
+  button.addEventListener('click', (e) => {
+    console.log(`${articleData.title} button was clicked!`);
+    if(article.classList.contains('article-open')) {
+      article.classList.remove('article-open');
+      content.classList.replace('content-expanded', 'content-hidden');
+      button.textContent = '\u25bc';
+    } else {
+      article.classList.add('article-open');
+      content.classList.replace('content-hidden', 'content-expanded');
+      button.textContent = '\u25b2';
+    }
+  });
+
+  return article;
+}
+
+const articles = document.querySelector('div.articles');
+
+data.forEach(article => {
+  articles.appendChild(articleFactory(article));
+});
